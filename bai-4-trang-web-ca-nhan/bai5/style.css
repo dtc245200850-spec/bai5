@@ -1,0 +1,16 @@
+/* PHẦN 3: EXTERNAL STYLE */
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #f8f9fa;
+}
+
+.external-title {
+    color: #2980b9; /* Màu xanh dương */
+    text-align: center;
+}
+
+.external-text {
+    color: #2c3e50; /* Màu xám đậm */
+    font-size: 18px;
+}

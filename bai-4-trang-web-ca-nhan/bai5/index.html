@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực hành Nhúng CSS vào HTML</title>
+
+    <!-- Phần 3: External Style (Kết nối file CSS bên ngoài) -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Phần 2: Internal Style (Viết CSS trực tiếp trong thẻ <style> ở head) -->
+    <style>
+        .internal-title {
+            color: #27ae60; /* Màu xanh lá */
+            text-align: center;
+        }
+        .internal-text {
+            color: #d35400; /* Màu cam */
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- PHẦN 1: INLINE STYLE (Nhúng trực tiếp vào thuộc tính style của thẻ) -->
+    <section>
+        <h1 style="color: #e74c3c; text-align: center;">Phần 1: Inline Style - Tiêu đề màu đỏ</h1>
+        <p style="color: #8e44ad; font-size: 18px;">Đoạn văn này được định dạng màu tím trực tiếp bằng thuộc tính style trong thẻ p.</p>
+    </section>
+
+    <hr>
+
+    <!-- PHẦN 2: INTERNAL STYLE (Sử dụng class được khai báo trong thẻ <style>) -->
+    <section>
+        <h1 class="internal-title">Phần 2: Internal Style - Tiêu đề màu xanh lá</h1>
+        <p class="internal-text">Đoạn văn này được định dạng màu cam bằng Internal CSS đặt trong thẻ head.</p>
+    </section>
+
+    <hr>
+
+    <!-- PHẦN 3: EXTERNAL STYLE (Sử dụng class từ file style.css bên ngoài) -->
+    <section>
+        <h1 class="external-title">Phần 3: External Style - Tiêu đề màu xanh dương</h1>
+        <p class="external-text">Đoạn văn này được định dạng màu xám đậm bằng External CSS từ file style.css.</p>
+    </section>
+
+</body>
+</html>
