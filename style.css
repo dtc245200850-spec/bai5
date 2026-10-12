@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f6f8;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+/* 2. Square */
+.subject-list {
+    list-style-type: square;
+}
+
+/* 3. Upper-Roman */
+.step-list {
+    list-style-type: upper-roman;
+}
+
+/* 4. Image */
+.tool-list {
+    list-style-image: url('https://cdn-icons-png.flaticon.com/128/5290/5290058.png');
+}
+
+/* 5. Outside / Inside */
+.position-outside {
+    list-style-position: outside;
+    background-color: #e2e8f0;
+    padding-left: 40px;
+}
+
+.position-inside {
+    list-style-position: inside;
+    background-color: #e2e8f0;
+    padding-left: 20px;
+}
+
+/* 6. Shorthand */
+.shorthand-list {
+    list-style: square inside;
+}
+
+/* 7. Màu sắc & Spacing */
+.styled-languages {
+    background-color: #1e293b;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+
+.styled-languages li {
+    color: #38bdf8;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* 8. Bài tập tổng hợp */
+.web-roadmap {
+    list-style: decimal inside;
+    background-color: #e0f2fe;
+    padding: 20px;
+    border-left: 5px solid #0284c7;
+    border-radius: 6px;
+}
+
+.web-roadmap li {
+    color: #0f172a;
+    background-color: #ffffff;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
